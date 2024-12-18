@@ -1,0 +1,420 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1734538808115620, "dur":121, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808115773, "dur":30699, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808146478, "dur":74, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808146580, "dur":501, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808147102, "dur":4076, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808151179, "dur":647304, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808798485, "dur":290, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808798775, "dur":74, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808798850, "dur":58, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808799133, "dur":1378, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1734538808147122, "dur":4064, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734538808151188, "dur":10091, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734538808161305, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/9141490225210598508.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1734538808161387, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734538808161859, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808161946, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808162198, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808162319, "dur":398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808162722, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808162995, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808163067, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808163700, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1734538808163794, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1734538808163913, "dur":845, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\C24404366\\My project (2)\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1734538808161703, "dur":3376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/C24404366/My project (2)/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1734538808165892, "dur":164, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734538808194219, "dur":368749, "ph":"X", "name": "UnityLinker",  "args": { "detail":"C:/Users/C24404366/My project (2)/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1734538808577113, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808577957, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808581023, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808586035, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808595292, "dur":458, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734538808588105, "dur":7704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808595811, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808595896, "dur":8695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808611554, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734538808604715, "dur":6915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808611633, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808611734, "dur":9356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808621093, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808621829, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734538808624599, "dur":173886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734538808147192, "dur":4012, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734538808151207, "dur":1270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734538808152477, "dur":868, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734538808153345, "dur":8012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734538808161358, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1734538808199345, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1734538808200245, "dur":376896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734538808577142, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734538808577933, "dur":9819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734538808587811, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734538808593191, "dur":898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734538808594118, "dur":33373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734538808627493, "dur":171007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734538808147156, "dur":4036, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734538808151195, "dur":1551, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734538808152747, "dur":825, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734538808153572, "dur":7784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734538808161372, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1734538808207791, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1734538808208674, "dur":368479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734538808577158, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808578104, "dur":7607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808585713, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808586156, "dur":4360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808590519, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808590582, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808594330, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808594394, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808599109, "dur":5775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808604941, "dur":5390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808610390, "dur":10940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808621333, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808621433, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734538808623949, "dur":174532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808147183, "dur":4015, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808151201, "dur":1223, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808152425, "dur":933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808153359, "dur":7928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808161305, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1734538808163134, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1734538808165183, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808165437, "dur":7847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808173398, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1734538808175000, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1734538808178418, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1734538808179748, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1734538808181066, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1734538808184346, "dur":392815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808577165, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808577918, "dur":7371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808586118, "dur":3589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808589709, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808599329, "dur":149, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734538808589798, "dur":9695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808599498, "dur":1865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808601407, "dur":29865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734538808631275, "dur":167218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808147220, "dur":3991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808151213, "dur":1209, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808152423, "dur":810, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808153233, "dur":8052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808162148, "dur":373, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1734538808162717, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1734538808165151, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1734538808165446, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1734538808166278, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D.exe" }}
+,{ "pid":12345, "tid":5, "ts":1734538808167601, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1734538808167932, "dur":8727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1734538808176707, "dur":870, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1734538808176703, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1734538808177605, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1734538808180187, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1734538808181427, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1734538808182714, "dur":394445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808577161, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808578043, "dur":6593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808584641, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808595193, "dur":521, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808586386, "dur":9461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808595849, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808596093, "dur":204, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734538808596317, "dur":8411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808604788, "dur":20378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734538808625167, "dur":173322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734538808147283, "dur":4000, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734538808151287, "dur":1317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734538808152605, "dur":839, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734538808153444, "dur":7910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734538808161355, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1734538808193273, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1734538808194120, "dur":383017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734538808577141, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808577985, "dur":7758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808585745, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808586184, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808588519, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808588593, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808592685, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808592749, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808596594, "dur":4817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808601463, "dur":4784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808606330, "dur":7546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808613934, "dur":7666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808621602, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808621692, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734538808624000, "dur":174511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808147315, "dur":3975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808151292, "dur":1277, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808152569, "dur":791, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808153360, "dur":7984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808161345, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1734538808185916, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1734538808186904, "dur":390278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808577183, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808587095, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808578120, "dur":9235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808587370, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808591866, "dur":157, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734538808587462, "dur":4592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808592056, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808592210, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808596711, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808600350, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808600501, "dur":10103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808610659, "dur":10238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808620977, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734538808621982, "dur":176492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734538808147349, "dur":3947, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734538808151298, "dur":1381, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734538808152679, "dur":887, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734538808153566, "dur":7809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734538808161379, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1734538808207419, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1734538808208516, "dur":368605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734538808577124, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808577923, "dur":8191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808586117, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808586207, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808588958, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808589103, "dur":10629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808599735, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808599850, "dur":6480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808606332, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808606418, "dur":7128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808613549, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808613627, "dur":10659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734538808624288, "dur":174199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734538808147374, "dur":3981, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734538808151359, "dur":1454, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734538808152813, "dur":8471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734538808161305, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":9, "ts":1734538808213249, "dur":477, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":9, "ts":1734538808213740, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1734538808214343, "dur":566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player1f3f0290-inputdata.json" }}
+,{ "pid":12345, "tid":9, "ts":1734538808213730, "dur":1242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1734538808215479, "dur":162, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734538808215884, "dur":116654, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1734538808339467, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1734538808339448, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1734538808339558, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1734538808340236, "dur":236880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734538808577118, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734538808577969, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734538808580968, "dur":65967, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734538808580914, "dur":66023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734538808646966, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734538808648322, "dur":150182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808147394, "dur":3969, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808151366, "dur":1278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808152645, "dur":830, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808153475, "dur":7903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808161379, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1734538808200467, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1734538808201437, "dur":375706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808577145, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808577877, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808581218, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808586042, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808588512, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808595448, "dur":730, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734538808588632, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808597250, "dur":73019, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808596246, "dur":74025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808670322, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734538808671438, "dur":127064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734538808147432, "dur":3938, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734538808151373, "dur":1380, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734538808152753, "dur":723, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734538808153476, "dur":7872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734538808161350, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1734538808192862, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1734538808193702, "dur":383535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734538808577286, "dur":167702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734538808577238, "dur":167752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734538808745013, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734538808746143, "dur":52371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808147461, "dur":3916, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808151380, "dur":1386, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808152767, "dur":8614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808161382, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1734538808199995, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1734538808200952, "dur":376194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808577160, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808578063, "dur":8738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808586803, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808586928, "dur":208, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808592164, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808587140, "dur":5119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808592262, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808596049, "dur":218, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734538808592398, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808596312, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808596385, "dur":3952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808600339, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808600437, "dur":13145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808613638, "dur":8730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734538808622370, "dur":176107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1734538808147491, "dur":3892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1734538808151386, "dur":1364, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1734538808152750, "dur":855, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1734538808153605, "dur":7708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1734538808161315, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1734538808168652, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1734538808169756, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808169897, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808171050, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1734538808171160, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1734538808175369, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1734538808176931, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1734538808179536, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1734538808180902, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1734538808182220, "dur":394892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1734538808577114, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808578001, "dur":6723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808584728, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808586114, "dur":6431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808592603, "dur":9499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808602153, "dur":115535, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808602105, "dur":115586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808717723, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1734538808718948, "dur":79549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808147520, "dur":3871, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808151393, "dur":1282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808152676, "dur":861, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808153538, "dur":7821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808161360, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1734538808186754, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1734538808187691, "dur":389473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808577175, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808578091, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808586050, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808589266, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808589322, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808595523, "dur":721, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1734538808589386, "dur":7085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808596472, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808596783, "dur":30690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1734538808627476, "dur":171027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808147550, "dur":3849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808151403, "dur":1366, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808152769, "dur":8582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808161352, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1734538808185752, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1734538808186804, "dur":390380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808577186, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808586936, "dur":226, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808578028, "dur":9226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808587256, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808587340, "dur":5053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808596248, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1734538808592454, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808596433, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808596609, "dur":9706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808606316, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808606435, "dur":19079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1734538808625516, "dur":172992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1734538808147574, "dur":3832, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1734538808151409, "dur":990, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1734538808152400, "dur":788, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1734538808153189, "dur":8172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1734538808161374, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1734538808200849, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1734538808201627, "dur":375512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1734538808577141, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808578013, "dur":6747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808584763, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808586289, "dur":3113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808589406, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808589492, "dur":4398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808594054, "dur":10143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808604257, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808607328, "dur":9886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808617259, "dur":100479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808617216, "dur":100524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808717757, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1734538808718906, "dur":79600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808147612, "dur":3801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808151416, "dur":969, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808152386, "dur":803, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808153190, "dur":8160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808161350, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1734538808198745, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1734538808199740, "dur":377408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808577149, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808586813, "dur":314, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1734538808577945, "dur":9400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808587347, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808587511, "dur":5758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808593271, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808593367, "dur":4924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808598294, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808598362, "dur":7124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808605488, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808605604, "dur":9923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808615577, "dur":103933, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808615530, "dur":103981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808719534, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1734538808720676, "dur":77804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808147634, "dur":3787, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808151423, "dur":930, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808152354, "dur":804, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808153158, "dur":8188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808161348, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1734538808178065, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1734538808179232, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":18, "ts":1734538808180711, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/level0.resS" }}
+,{ "pid":12345, "tid":18, "ts":1734538808182057, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":18, "ts":1734538808183287, "dur":393870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808577161, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808578076, "dur":9836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808587914, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808595438, "dur":326, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1734538808588002, "dur":7813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808595817, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808595901, "dur":6123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808602027, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808602159, "dur":20771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1734538808622932, "dur":175563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1734538808147660, "dur":3766, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1734538808151429, "dur":883, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1734538808152313, "dur":818, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1734538808153131, "dur":8222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1734538808161354, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1734538808200115, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1734538808201154, "dur":375974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1734538808577130, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1734538808577914, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1734538808581063, "dur":216497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":19, "ts":1734538808581011, "dur":216551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":19, "ts":1734538808797586, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808147680, "dur":3755, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808151436, "dur":933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808152370, "dur":774, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808153145, "dur":8170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808161316, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":20, "ts":1734538808167890, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":20, "ts":1734538808169169, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808169275, "dur":22094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808191400, "dur":385777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808577182, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808578138, "dur":8711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808586851, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808586980, "dur":202, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808587185, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808591490, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808591597, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808594858, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808594992, "dur":7674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808602669, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808602779, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808620440, "dur":207, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1734538808606925, "dur":13735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808620662, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808620772, "dur":4289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/C24404366/Desktop/tempadventure/temp adventure D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1734538808625062, "dur":173429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734538808802977, "dur":1222, "ph":"X", "name": "ProfilerWriteOutput" }
+,
